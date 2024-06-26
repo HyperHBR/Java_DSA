@@ -1,0 +1,7 @@
+1.Start
+2.Input Numbers(A And B)
+3.if A>B do
+    print A
+  else
+    print B
+4.Exit

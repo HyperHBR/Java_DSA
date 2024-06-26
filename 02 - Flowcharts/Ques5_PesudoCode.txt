@@ -1,0 +1,14 @@
+1.Start
+2.Input A,B And C
+3.Calculate D = sqrt(B^2 - 4*A*C)
+4.if D>=0 do
+    X1 = (-B + D) / 2*A
+    X2 = (-B - D) / 2*A
+  else do
+    RealPart = -B/2*A
+    ImaginaryPart = sqrt(|D|)/2*A
+    X1 = RP + i*IP
+    X2 = RP - i*IP
+5.Print X1,X2
+6.Exit
+

@@ -1,0 +1,15 @@
+1.Start
+2.Let Num=10
+3.while Num<100 do
+    if Num%2==0
+        print Num
+4.Exit
+
+OR
+
+1.Start
+2.Let Num=10
+3.while Num < 100
+    print Num
+    Num += 2
+4.Exit
