@@ -1,2 +1,3 @@
-# Java_DSA
-This repository contains all the java programs that i learned during my APNA_COLLEGE_JAVA_DSA_Course
+Java_DSA 📚💻
+
+A collection of Java programs from my "Apna College - DSA" course. Learn data structures and algorithms with practical examples!
