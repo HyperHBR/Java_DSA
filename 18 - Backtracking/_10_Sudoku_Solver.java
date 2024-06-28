@@ -2,13 +2,13 @@ public class _10_Sudoku_Solver {
     public static boolean isSafe(int SudokuBoard[][],int Row,int Col,int Digit){
         //For Row
         for(int i=0;i<9;i++){
-            if(SudokuBoard[i][Col]==Digit)
+            if(i!=Col && SudokuBoard[i][Col]==Digit)
                 return false;
         }
         
         //For Column
         for(int i=0;i<9;i++){
-            if(SudokuBoard[Row][i]==Digit)
+            if(i!=Row && SudokuBoard[Row][i]==Digit)
                 return false;
         }
 
@@ -18,7 +18,7 @@ public class _10_Sudoku_Solver {
 
         for(int i=GridStartRow;i<GridStartRow+3;i++){
             for(int j=GridStartCol;j<GridStartCol+3;j++){
-                if(SudokuBoard[i][j]==Digit){
+                if(i!=Row && j!=Col && SudokuBoard[i][j]==Digit){
                     return false;
                 }
             }
